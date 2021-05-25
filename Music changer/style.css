@@ -1,0 +1,59 @@
+.heading{
+    font-size: 23px;
+    width: 100%;
+    margin: 0px;
+    color:aqua;
+    background-color: black;
+    font-family: 'Monoton', cursive;
+}
+.note{
+    font-size: 18px;
+    color: red;
+    font-family: 'Major Mono Display', monospace;
+}
+.div_speed{
+    float: left;
+}
+.div_speed_img{
+    width: 130px;
+    border-radius: 100px;
+}
+#speed{
+    font-size: 23px;
+    margin: 15px;
+}
+.div_volume{
+    float: right;
+    margin-top: 45px;
+}
+.div_volume_img{
+    width: 130px;
+    border-radius: 100px;
+}
+#volume{
+    font-size: 23px;
+    margin: 15px;
+}
+#play_button{
+    width: 130px;
+    font-size: 20px;
+    color: aqua;
+    font-family:'Major Mono Display', monospace;
+    float:left;
+    background: url('Button_bg_img2.jpg') no-repeat; cursor:pointer; border: none; 
+    margin-top: 20px;
+    background-position-x: right;
+}
+canvas{
+    border:5px solid lime;
+    border-radius: 20px;
+}
+#song_select{
+position:absolute;
+bottom:200px;
+width:50%;
+margin-left: 330px;
+font-size: 20px;
+color: red;
+font-family: 'Major Mono Display', monospace;
+}
